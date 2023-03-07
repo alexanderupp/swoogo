@@ -1,0 +1,26 @@
+:root {
+	/** Colors **/
+	--color-black:#090909;
+	--color-cream:#E2DED3;
+	--color-dark-blue:#111320;
+	--color-orange:#f36a34;
+	--color-white:#FEFEFE;
+
+	--max-width:1200px;
+}
+
+$colors: (
+	"black",
+	"cream",
+	"dark-blue",
+	"orange",
+	"white"
+);
+
+$fontSizes: (
+	1:1em,
+	2:1.5em,
+	3:2em,
+	4:2.5em,
+	5:3em
+);

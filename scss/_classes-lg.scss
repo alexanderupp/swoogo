@@ -1,0 +1,21 @@
+.row {
+	gap:0px;
+
+	@for $i from 1 through 8 {
+		&.row-#{$i} {
+			//grid-template-columns:repeat($i, 100%);
+		}
+	}
+}
+
+
+
+.session {
+	grid-column-end:span 2;
+	margin:0px -20px;
+	position:relative;
+
+	&:not(:last-child) {
+		border-bottom:1px dashed var(--color-orange);
+	}
+}
